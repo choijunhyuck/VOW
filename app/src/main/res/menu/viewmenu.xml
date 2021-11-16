@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.vowcompany.vow.VowActivity">
+
+    <item
+        android:id="@+id/menu_edit"
+        android:title="@string/vow_menu_edit"
+        android:onClick="onItemClick"
+        />
+
+    <item
+        android:id="@+id/menu_option"
+        android:title="@string/vow_menu_option"
+        android:onClick="onItemClick"
+        />
+
+    <item
+        android:id="@+id/menu_delete"
+        android:title="@string/vow_menu_delete"
+        android:onClick="onItemClick"
+        />
+
+</menu>

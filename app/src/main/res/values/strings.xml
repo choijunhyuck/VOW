@@ -1,0 +1,119 @@
+<resources>
+
+    <!--Default-->
+    <string name="app_name">VOW</string>
+    <string name="ok">OK</string>
+    <string name="back">Back</string>
+
+    <string name="kor">KOR</string>
+    <string name="eng">ENG</string>
+
+    <!--Error-->
+    <string name="check_your_internet">Check your internet.</string>
+    <string name="server_error_please_retry">Server error. please retry.</string>
+    <string name="something_wrong_please_contact_us">Something wrong. please contact us.</string>
+    <string name="please_enter_friend_information_first">Please enter friend information first.</string>
+    <string name="publish_limit_reached">Publish limit reached.</string>
+
+    <!--Splash-->
+    <string name="app_name_sub">VAULT OF WORDS</string>
+
+    <!--Information-->
+
+    <string name="information">Information</string>
+
+    <string name="information_name">Tell us your name.</string>
+    <string name="information_name_holder">full name</string>
+
+    <string name="information_phone_serial">Enter phone IMEI number.</string>
+    <string name="information_phone_serial_see_detail"><u>see detail</u></string>
+    <string name="information_phone_serial_holder">Enter 14 ~ 16 decimal digits.</string>
+
+    <string name="information_privacy_1">I agree to the</string>
+    <string name="information_privacy_see_term"><u>Terms of private policy</u></string>
+    <string name="information_privacy_2">of Vow.</string>
+    <string name="information_privacy_agree">Agree</string>
+    <string name="information_privacy_additional">Why does VOW collect this information?</string>
+
+    <!--Find imei-->
+
+    <string name="find_imei">Find IMEI</string>
+
+    <string name="find_imei_guide_1">IMEI Path</string>
+    <string name="find_imei_settings">Settings</string>
+    <string name="find_imei_general">General</string>
+    <string name="find_imei_about_phone">About phone</string>
+    <string name="find_imei_status">Status</string>
+    <string name="find_imei_detail">[14 ~ 16 Decimal Digits]</string>
+
+    <string name="find_imei_guide_2">Why does VOW collect this information?</string>
+    <string name="find_imei_guide_2_text">If you die, your family can receive a will by looking up the IMEI of your mobile phone with VOW installed. If the mobile phone IMEI and the IMEI stored in the database are different, the will delivery service is invalid.</string>
+
+    <!--Terms of private policy-->
+    <string name="terms_of_pp">Terms of private policy</string>
+
+    <!--Main-->
+    <string name="main_have_no_contents">Have no contents.</string>
+    <string name="main_have_no_contents_create_one">Create One?</string>
+    <string name="main_vow_warning">Locked. Click to see.</string>
+
+    <!--Add-->
+    <string name="add">Add</string>
+    <string name="add_hint">Killing yourself is the stupidest choice you\'ve ever made.</string>
+
+    <!--Lock-->
+    <string name="lock_key">Lock key</string>
+    <string name="new_lock_key">New Lock key</string>
+
+    <!--Setting-->
+    <string name="setting">Setting</string>
+    <string name="setting_lock_key">Update key</string>
+    <string name="setting_information">Information</string>
+    <string name="setting_sar_service">Search and Recieve service</string>
+
+    <!--Setting Information-->
+    <string name="setting_information_signature">Your Signature</string>
+    <string name="setting_information_license">Your License is now</string>
+    <string name="setting_information_activated">activated</string>
+    <string name="setting_information_deactivated">deactivated</string>
+
+    <string name="setting_information_reminder">Never give out your signature number to anyone.</string>
+
+    <!--Setting lock key-->
+    <string name="pin_indicator_relay_0">Pin</string>
+    <string name="pin_indicator_relay_1">Enter the pin you want.</string>
+    <string name="pin_indicator_relay_2">Enter the pin once more.</string>
+    <string name="pin_indicator_relay_3">Does not match the entered pin. try again.</string>
+    <string name="pin_indicator_relay_4">Enter the registered pin.</string>
+    <string name="pin_indicator_relay_5">Pin is wrong. Please enter again.</string>
+
+    <!--Vow-->
+
+    <string name="vow_view">View</string>
+    <string name="vow_editing">Editing</string>
+
+    <string name="vow_reminder">really delete your vow?</string>
+
+    <string name="vow_menu_edit">Edit</string>
+    <string name="vow_menu_option">Option</string>
+    <string name="vow_menu_delete">Delete</string>
+
+    <!--Activities-->
+
+    <string name="published">Published</string>
+    <string name="error">Error</string>
+
+    <!--Option-->
+    <string name="option">Option</string>
+    <string name="option_family_open">Family open</string>
+    <string name="option_friend_open">Friend open</string>
+    <string name="option_cancellation">Cancellation</string>
+    <string name="option_name">name</string>
+    <string name="option_birth">birth</string>
+
+    <!--Information-->
+    <string name="information_name_empty_toast">Please enter your name.</string>
+    <string name="information_imei_wrong_toast">IMEI is wrong.</string>
+    <string name="information_pp_not_agree_toast">Please agree to the Privacy Policy.</string>
+
+</resources>

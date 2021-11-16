@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Default-->
+    <color name="colorPrimary">@color/colorWhite</color>
+    <color name="colorPrimaryDark">@color/colorWhite</color>
+    <color name="colorAccent">#1D0E77</color>
+
+    <!--Custom-->
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorWhiteTransparent">#80FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorGrayLight">#E2E2E2</color>
+    <color name="colorGray">#6C6C6D</color>
+    <color name="colorBlue">#3266CE</color>
+    <color name="colorYellow">#E2B461</color>
+    <color name="colorGreen">#5FC65C</color>
+    <color name="colorRed">#DD5B68</color>
+    <color name="colorRedLight">#B27070</color>
+
+</resources>

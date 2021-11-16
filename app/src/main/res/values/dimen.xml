@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Default-->
+    <dimen name="span_small">4dp</dimen>
+    <dimen name="span_medium">8dp</dimen>
+    <dimen name="span_large">16dp</dimen>
+    <dimen name="span_xlarge">32dp</dimen>
+
+    <dimen name="title_font_size">20dp</dimen>
+    <dimen name="title_bar_height">48dp</dimen>
+    <dimen name="title_bar_icon_size">22dp</dimen>
+
+    <dimen name="title_btn_width">80dp</dimen>
+
+    <!--Splash-->
+    <dimen name="splash_app_name_font_size">46sp</dimen>
+    <dimen name="splash_app_name_sub_font_size">14sp</dimen>
+
+    <!--Information-->
+    <dimen name="information_input_font_size">14sp</dimen>
+    <dimen name="information_button_font_size">12sp</dimen>
+
+    <!--Find IMEI-->
+    <dimen name="find_imei_step_size">12dp</dimen>
+
+    <!--Main-->
+    <dimen name="main_vow_item_height">200dp</dimen>
+    <dimen name="main_badge_size">24dp</dimen>
+    <dimen name="main_have_no_contents_create_one_font_size">22sp</dimen>
+
+    <!--Feed-->
+    <dimen name="feed_item_corner_radius">16dp</dimen>
+
+    <!--Vow-->
+    <dimen name="vow_circle_size">10dp</dimen>
+    <dimen name="vow_title_bar_height">64dp</dimen>
+    <dimen name="vow_updated_font_size">10dp</dimen>
+
+    <!--Option-->
+    <dimen name="option_input_font_size">14sp</dimen>
+    <dimen name="option_span">26dp</dimen>
+
+    <!--Editing-->
+    <dimen name="editing_font_size">14sp</dimen>
+
+    <!--Setting-->
+    <dimen name="setting_icon_size">26dp</dimen>
+
+</resources>

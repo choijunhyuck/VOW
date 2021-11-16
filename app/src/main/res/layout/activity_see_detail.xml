@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorGrayLight"
+    tools:context=".see.SeeDetail">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/span_large"
+        android:layout_marginTop="@dimen/span_large"
+        android:layout_marginEnd="@dimen/span_large"
+        android:background="@color/colorWhite"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/span_large"
+            android:layout_marginTop="@dimen/span_xlarge"
+            android:text="@string/find_imei_guide_1"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/span_large"
+            android:layout_marginTop="@dimen/span_large"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView10">
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/find_imei_settings"
+                android:textColor="@color/colorGray"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Space
+                android:layout_width="@dimen/span_medium"
+                android:layout_height="@dimen/span_medium" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="@dimen/find_imei_step_size"
+                android:layout_height="@dimen/find_imei_step_size"
+                app:srcCompat="@drawable/icon_step" />
+
+            <Space
+                android:layout_width="@dimen/span_medium"
+                android:layout_height="@dimen/span_medium" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/find_imei_general"
+                android:textColor="@color/colorGray"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Space
+                android:layout_width="@dimen/span_medium"
+                android:layout_height="@dimen/span_medium" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="@dimen/find_imei_step_size"
+                android:layout_height="@dimen/find_imei_step_size"
+                app:srcCompat="@drawable/icon_step" />
+
+            <Space
+                android:layout_width="@dimen/span_medium"
+                android:layout_height="@dimen/span_medium" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/find_imei_about_phone"
+                android:textColor="@color/colorGray"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Space
+                android:layout_width="@dimen/span_medium"
+                android:layout_height="@dimen/span_medium" />
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="@dimen/find_imei_step_size"
+                android:layout_height="@dimen/find_imei_step_size"
+                app:srcCompat="@drawable/icon_step" />
+
+            <Space
+                android:layout_width="@dimen/span_medium"
+                android:layout_height="@dimen/span_medium" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/find_imei_status"
+                android:textColor="@color/colorGray"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/span_large"
+            android:layout_marginTop="@dimen/span_large"
+            android:layout_marginBottom="@dimen/span_xlarge"
+            android:text="@string/find_imei_detail"
+            android:textColor="@color/colorGray"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout4" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@color/colorWhite"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout3">
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/span_large"
+            android:layout_marginTop="@dimen/span_xlarge"
+            android:text="@string/find_imei_guide_2"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/span_large"
+            android:layout_marginTop="@dimen/span_large"
+            android:layout_marginEnd="@dimen/span_large"
+            android:layout_marginBottom="@dimen/span_xlarge"
+            android:lineSpacingExtra="@dimen/span_small"
+            android:text="@string/find_imei_guide_2_text"
+            android:textColor="@color/colorGray"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView17" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:id="@+id/find_imei_back_btn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/span_large"
+        android:layout_marginTop="@dimen/span_large"
+        android:layout_marginRight="@dimen/span_large"
+        android:background="@color/colorAccent"
+        android:text="@string/back"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
